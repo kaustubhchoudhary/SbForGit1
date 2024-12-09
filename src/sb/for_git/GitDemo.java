@@ -1,5 +1,8 @@
 package sb.for_git;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import sb.for_git.ex_1.Student;
 
 public class GitDemo {
@@ -12,6 +15,16 @@ public class GitDemo {
 
 		System.out.println(student);
 
+	}
+	
+	static void modifyStudent(){
+		
+		List<Student> students = new ArrayList<Student>();
+		students.add(new Student(1, "Umesh"));
+		students.add(new Student(11, "Vijay"));
+		
+		System.out.println(students);
+		
 	}
 
 }
