@@ -15,4 +15,7 @@ public class Student {
 		return "\n Student [id=" + id + ", name=" + name + "]";
 	}
 
+	Student getSingleStudent() {
+		return new Student(456, "Harish");
+	}
 }
